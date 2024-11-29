@@ -1,0 +1,61 @@
+
+header{
+    display: flex;
+    background: linear-gradient(90deg, #001B2F 0%, #005695 100%) ;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+}
+
+section{
+    display: flex;
+    text-align: end;
+    width: 25vw;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.Logo{
+    width: 2%;
+}
+nav{
+    width: 25vw;
+    align-items: center;
+    
+    ul{
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.link{
+    color:white;
+}
+
+.barraDePesquisa{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: white solid 2px;
+    border-radius:15px ;
+    width: 15vw;
+    height: 3vw;
+    margin-right: 10px;
+}
+input{
+    border-radius: 4px;
+    background: none;
+    border: none;
+    &::placeholder{
+        color: white;
+        text-align: center;
+    }
+    color: white;
+    outline: 0;
+}
+button{
+    background: none;
+    border:none;
+    cursor: pointer;
+}

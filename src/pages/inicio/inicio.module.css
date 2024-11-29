@@ -1,0 +1,47 @@
+.prime {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sections {
+  display: flex;
+  flex-direction: column;
+  height: 40vw;
+  width: 90vw;
+  align-items: start;
+}
+
+.sectione {
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+}
+
+.Livros {
+  width: 100vw;
+}
+
+.h1daqui {
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+  color: #005695;
+  font-size: xx-large;
+}
+
+.divsao {
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+  opacity: 0px;
+  background-color: rgba(1, 87, 148, 0.3019607843);
+  align-items: center;
+  text-align: center;
+}
+
+p {
+  color: black;
+  font-size: large;
+}/*# sourceMappingURL=inicio.module.css.map */
