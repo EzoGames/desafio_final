@@ -5,34 +5,44 @@ header{
     justify-content: space-between;
     align-items: center;
     height: 15vh;
+    width: 100%;
+
 }
 
-section{
+.cabeca{
     display: flex;
     text-align: end;
-    width: 25vw;
+    width: 18vw;
     color: white;
-    align-items: center;
-    justify-content: space-evenly;
+    align-items: end;
 }
 .Logo{
     width: 2%;
+    
 }
-nav{
+.navinha{
     width: 25vw;
     align-items: center;
-    
+    height: 50%;
+    align-items: end;
+    display: flex;
+    justify-content: space-between;
     ul{
         list-style: none;
         display: flex;
         justify-content: space-between;
+        width: 100%;
     }
 }
 
 .link{
     color:white;
 }
-
+.pesq{
+    height: 9vh;
+    display: flex;
+    align-items: end;
+}
 .barraDePesquisa{
     text-align: center;
     align-items: center;
@@ -42,6 +52,10 @@ nav{
     width: 15vw;
     height: 3vw;
     margin-right: 10px;
+    display: flex;
+    text-align: end;
+    color: white;
+
 }
 input{
     border-radius: 4px;
@@ -58,4 +72,31 @@ button{
     background: none;
     border:none;
     cursor: pointer;
+    height: 3vh;
+}
+
+@media (max-width:780px){
+    header{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .cabeca{
+        width: 90vw;
+        justify-content: center;
+        height: 50vh;
+        align-items: center;
+    }
+    .logo{
+        width:40px ;
+    }
+    .barraDePesquisa{
+        display: none;
+    }
+    .navinha{
+        width: 95vw;
+    }
+    ul{
+        width: 90vw;
+    }
+    
 }
