@@ -1,4 +1,4 @@
-import s from './Footer.module.scss';
+import s from './Footer.module.scss'
 import face from '../../assets/face.png'
 import Xwiter from '../../assets/twiter.png'
 import tutube from '../../assets/tutube.png'
